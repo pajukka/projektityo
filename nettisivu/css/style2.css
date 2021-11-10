@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-image: url("../images/hospital.jpg") ;
+    background-position: fixed; 
+    background-repeat: repeat; 
+    background-size: cover;
+    border-width: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-top: 0px;
+    
+    
+}
+
+  .fonts {
+    font-family: 'Montserrat', sans-serif;
+    
+    
+  }
+
+  .etusivu {
+    background-color: #14d1c8a9;
+    text-align: center;
+    margin: 50px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.63)
+    
+    
+  }
+
+
+  .tommone {
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    border-radius: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.63);
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+  }
+
+
+  .loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .perkele {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    margin-top: 20px;
+
+
+}
